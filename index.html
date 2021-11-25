@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7EXC93LXV4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7EXC93LXV4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-7EXC93LXV4');
-</script>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "G-7EXC93LXV4");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abigael Nyangasi, FullStack WebDeveloper</title>
-     <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <main>
@@ -26,7 +33,13 @@
           <h1>Abigael Nyangasi</h1>
           <h2>FullStack WebDeveloper</h2>
 
-          <p>I am a FullStack Web Developer seeking to obtain an entry-level software engineer position in a fast-paced organization where exceptional technical skills and ability to quickly adapt to change are duly compensated.As a developer, I specialize in creating modular and scalable front-end architectures. I am also a MERN stack developer. </p>
+          <p>
+            I am a FullStack Web Developer seeking to obtain a software engineer
+            position in a fast-paced organization where exceptional technical
+            skills and ability to quickly adapt to change are duly
+            compensated.As a developer, I specialize in creating modular and
+            scalable front-end architectures. I am also a MERN stack developer.
+          </p>
         </div>
       </header>
 
@@ -34,54 +47,184 @@
       <section class="projects">
         <div class="content-wrap divider">
           <h2>Featured Projects</h2>
-          <p>View selected projects below. More information can be found at <a href="https://github.com/IjayAbby"></a>.</p>
+          <p>
+            View selected projects below. More information can be found at
+            <a href="https://github.com/IjayAbby">Github page</a>.
+          </p>
 
           <!-- Project 1 -->
           <section class="project-item">
-            <img src="https://user-images.githubusercontent.com/43843720/92794589-5e4f2a80-f3b8-11ea-8125-e4a6e2156c56.jpg" alt="course thumbnail">
-            <h3>Mzalendo Online Shop</h3>
-            <p>The HTML5 & CSS3 Capstone Project is based on an online shop for electronics where I was requested to personalise the website.Mzalendo Online Shop is an ecommerce website for selling African products like beads, carvings and traditional gaments.</p>
-            <a class="btn" href="https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/index.html" target="_blank"> View live demo</a>
+            <img src="./images/covid-19.png" alt="course thumbnail" />
+            <h3>Covid-19 Data built with React.</h3>
+            <p>
+              This project is built with React and Redux, where data is fetched
+              from Narrativa API that displays COVID-19 data in different
+              countries. You can filter the results by minimum number of deaths
+              in different contries.
+            </p>
+            <a
+              class="btn"
+              href="https://ecstatic-shockley-f983ac.netlify.app"
+              target="_blank"
+            >
+              View live demo</a
+            >
+            <a
+              class="btn"
+              href="https://github.com/IjayAbby/react-capstone-covid19-data"
+              target="_blank"
+              >Github Link</a
+            >
           </section>
 
-            <!-- Project 2 -->
-            <section class="project-item">
-              <img src="https://user-images.githubusercontent.com/43843720/111085136-135cce00-8527-11eb-8c70-a943e1112f84.png" alt="course thumbnail">
-              <h3>Twitter Clone using Ruby on Rails</h3>
-              <p>I have built a Twitter Redesign for my Ruby on Rails capstone project which is a desktop web app. My project is a social media application called **Converse**</p>
-              <a class="btn" href="https://twitter-redesign-ror.herokuapp.com/" target="_blank"> View live demo</a>
-            </section>
+          <!-- Project 2 -->
+          <section class="project-item">
+            <img src="./images/calculator.png" alt="course thumbnail" />
+            <h3>Math-magicians.</h3>
+            <p>
+              This project is built on react with several principles put to
+              place such as routing, event-handling, use of hooks and reusable
+              components. Besides I have a fully functional calculator with a
+              home and quote pages rendered.
+            </p>
+            <a
+              class="btn"
+              href="https://optimistic-williams-6278f8.netlify.app/"
+              target="_blank"
+            >
+              View live demo</a
+            >
+            <a
+              class="btn"
+              href="https://github.com/IjayAbby/math-magicians"
+              target="_blank"
+              >Github Link</a
+            >
+          </section>
 
           <!-- Project 3 -->
           <section class="project-item">
-            <img src="https://user-images.githubusercontent.com/43843720/101391176-051e6680-38d5-11eb-94ac-e110fa737c02.png" alt="website thumbnail">
-            <h3>Web Scraper in Ruby</h3>
-            <p>Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. Web scraping software may access the World Wide Web directly using the Hypertext Transfer Protocol, or through a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
-            The purpose of this project is to develop a scraper tool to achieve web-scrapping. This was achieved using Ruby, Open-uri, Watir and Nokogiri gem. The coursera page uses the production build of React which made the project more interesting to build.
-            </p>
-            <a class="btn" href="https://github.com/IjayAbby/Web-Scraper-Ruby-Capstone-Project" target="_blank">View live demo</a>
+            <img src="./images/space.png" alt="course thumbnail" />
+            <h3>Space Travelers' Hub.</h3>
+            <p>A React and Redux app consuming data from the SpaceX API.</p>
+            <a
+              class="btn"
+              href="https://space-travelers-x.netlify.app/"
+              target="_blank"
+            >
+              View live demo</a
+            >
+            <a
+              class="btn"
+              href="https://github.com/IjayAbby/space-travelers-hub"
+              target="_blank"
+            >
+              Github Link</a
+            >
           </section>
-
 
           <!-- Project 4 -->
           <section class="project-item">
-            <img src="images/wikonnect.png" alt="website thumbnail">
-            <h3>Open Source Contribution</h3>
-            <p>I am an open-source enthusiast, I enjoy working with different people and technologies. I contributed to Wikonnect where they use EmberJS for frontend, KoaJS for building APIs, Postgres with ObjectionJS and Knex for database management, Chai for writing unit tests.</p>
-            <a class="btn" href="https://app.wikonnect.org/" target="_blank">View original site</a>
+            <img
+              src="https://user-images.githubusercontent.com/43843720/111085136-135cce00-8527-11eb-8c70-a943e1112f84.png"
+              alt="course thumbnail"
+            />
+            <h3>Twitter Clone using Ruby on Rails</h3>
+            <p>
+              I have built a Twitter Redesign for my Ruby on Rails capstone
+              project which is a desktop web app. My project is a social media
+              application called **Converse**
+            </p>
+            <a
+              class="btn"
+              href="https://twitter-redesign-ror.herokuapp.com/"
+              target="_blank"
+            >
+              View live demo</a
+            >
+            <a
+              class="btn"
+              href="https://github.com/IjayAbby/Twitter-redesign"
+              target="_blank"
+              >Github Link</a
+            >
+          </section>
+          <!-- Project 5 -->
+          <section class="project-item">
+            <img
+              src="https://user-images.githubusercontent.com/43843720/101391176-051e6680-38d5-11eb-94ac-e110fa737c02.png"
+              alt="website thumbnail"
+            />
+            <h3>Web Scraper in Ruby</h3>
+            <p>
+              Web scraping, web harvesting, or web data extraction is data
+              scraping used for extracting data from websites. Web scraping
+              software may access the World Wide Web directly using the
+              Hypertext Transfer Protocol, or through a web browser. While web
+              scraping can be done manually by a software user, the term
+              typically refers to automated processes implemented using a bot or
+              web crawler. It is a form of copying, in which specific data is
+              gathered and copied from the web, typically into a central local
+              database or spreadsheet, for later retrieval or analysis. The
+              purpose of this project is to develop a scraper tool to achieve
+              web-scrapping. This was achieved using Ruby, Open-uri, Watir and
+              Nokogiri gem. The coursera page uses the production build of React
+              which made the project more interesting to build.
+            </p>
+            <a
+              class="btn"
+              href="https://github.com/IjayAbby/Web-Scraper-Ruby-Capstone-Project"
+              target="_blank"
+              >Github Link</a
+            >
           </section>
 
+          <!-- Project 6 -->
+          <section class="project-item">
+            <img src="images/wikonnect.png" alt="website thumbnail" />
+            <h3>Open Source Contribution</h3>
+            <p>
+              I am an open-source enthusiast, I enjoy working with different
+              people and technologies. I contributed to Wikonnect where they use
+              EmberJS for frontend, KoaJS for building APIs, Postgres with
+              ObjectionJS and Knex for database management, Chai for writing
+              unit tests.
+            </p>
+            <a class="btn" href="https://github.com/tunapanda/wikonnect" target="_blank">Github Link</a>
+            <a class="btn" href="https://github.com/tunapanda/wikonnect/pull/317" target="_blank">Issue link</a>
+          </section>
         </div>
       </section>
-
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience item-details">
         <div class="content-wrap divider">
           <h2>Work Experience</h2>
-          <p>See my complete work history on <a href="https://www.linkedin.com/in/ijayabby4/">LinkedIn</a>.</p>
+          <p>
+            See my complete work history on
+            <a href="https://www.linkedin.com/in/ijayabby4/">LinkedIn</a>.
+          </p>
 
           <!-- Job 1 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Software Developer Intern</h3>
+              <p>Weza Care Solutions</p>
+              <p>April 2021 - July 2021</p>
+            </div>
+            <div class="job-summary">
+              <p>
+                As an Intern I was building high and scalable frontend web
+                interfaces using React and Tailwind CSS. Besides, Learnt
+                emerging technologies such as NextJS, TypeScript and GraphQl.
+                Wrote clean code.I used git for Version Control, Clickup as
+                project and task management tool and Slack for communication.
+              </p>
+              <a href="https://wezacare.org/">Visit company website</a>
+            </div>
+          </section>
+
+          <!-- Job 2 -->
           <section class="job-item">
             <div class="job-details">
               <h3>Front-End Developer & Open-Source Contributor</h3>
@@ -89,12 +232,24 @@
               <p>June 2020-Present</p>
             </div>
             <div class="job-summary">
-              <p>I contribute to Wikonnect as a front-End Developer where I fix good first issues , modify and fix code errors. The preferred tech stack is EmberJS for FrontEnd , Postgresql and Knex for Database management ,KoaJS for building API , Chai for writing unit tests , Cypress for intergration testing , Yarn project package manager and Elastic Search and indexing tool.  </p>
-              <p>Link to my pull request <a href="https://github.com/tunapanda/wikonnect/pull/317">issue link.</a></p>
+              <p>
+                I contribute to Wikonnect as a front-End Developer where I fix
+                good first issues , modify and fix code errors. The preferred
+                tech stack is EmberJS for FrontEnd , Postgresql and Knex for
+                Database management ,KoaJS for building API , Chai for writing
+                unit tests , Cypress for intergration testing , Yarn project
+                package manager and Elastic Search and indexing tool.
+              </p>
+              <p>
+                Link to my pull request
+                <a href="https://github.com/tunapanda/wikonnect/pull/317"
+                  >issue link.</a
+                >
+              </p>
             </div>
           </section>
 
-          <!-- Job 2 -->
+          <!-- Job 3 -->
           <section class="job-item">
             <div class="job-details">
               <h3>FullStack Developer</h3>
@@ -102,10 +257,18 @@
               <p>June 27th 2020.</p>
             </div>
             <div class="job-details">
-              <p>The Hackathon entailed meeting other contributors and lead team members for the project. We had a deep dive of the whole project where we assisted new members on setup and installation of the projects.</p>
+              <p>
+                The Hackathon entailed meeting other contributors and lead team
+                members for the project. We had a deep dive of the whole project
+                where we assisted new members on setup and installation of the
+                projects.
+              </p>
               <p>Key achievements:</p>
               <ul>
-                <li>Deep dive into EmberJS framework and CircleCI for Continuous Intergration and testing.</li>
+                <li>
+                  Deep dive into EmberJS framework and CircleCI for Continuous
+                  Intergration and testing.
+                </li>
                 <li>Git and GitHub workflow for fixing the issues provided.</li>
                 <li>Yarn installation used as a package manager tool.</li>
                 <li>Communication and Team work.</li>
@@ -121,20 +284,33 @@
           <h2>Education</h2>
 
           <section>
-            <h3>LakeHub Academy</h3>
-            <p>MERN Stack Developer, February 2020 -July 2020.</p>
-            <p>MERN stack software Developer Bootcamp. Immersive training on( Node, Express, Javascript, MongoDB) for three months plus two months mentorship program.</p>
-          </section>
-
-          <section>
             <h3>Microverse</h3>
             <p>Since July 2020 till date.</p>
-            <p>Microverse is a remote Global Software Development Bootcamp where developers gain skills to compete in the global market.</p>
+            <p>
+              Microverse is a remote Global Software Development Bootcamp where
+              developers gain skills to compete in the global market.
+            </p>
           </section>
 
           <section>
-            <h3>African Center for Women in Information and Communication Technology(ACWICT).</h3>
-            <p>Microsoft Technological Associate Course (MTA) ,May 2018-August 2018.</p>
+            <h3>LakeHub Academy</h3>
+            <p>MERN Stack Developer, February 2020 -July 2020.</p>
+            <p>
+              MERN stack software Developer Bootcamp. Immersive training on(
+              Node, Express, Javascript, MongoDB) for three months plus two
+              months mentorship program.
+            </p>
+          </section>
+
+          <section>
+            <h3>
+              African Center for Women in Information and Communication
+              Technology(ACWICT).
+            </h3>
+            <p>
+              Microsoft Technological Associate Course (MTA) ,May 2018-August
+              2018.
+            </p>
           </section>
         </div>
       </section>
@@ -147,8 +323,14 @@
           <!-- Social media and contact links. Add or remove any networks. -->
           <ul class="contact-list">
             <li><a href="https://github.com/IjayAbby">Github</a></li>
-            <li><a href="https://twitter.com/Ijay_js" target="_blank">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/ijayabby4/" target="_blank">LinkedIn</a></li>
+            <li>
+              <a href="https://twitter.com/Ijay_js" target="_blank">Twitter</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ijayabby4/" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
           </ul>
         </div>
       </footer>
